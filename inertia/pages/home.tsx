@@ -31,13 +31,13 @@ export default function Home() {
 
   return (
     <>
-      <Head title="Immutable Human" />
+      <Head title="Human Notary" />
 
       <div className="min-h-screen bg-gray-50 flex flex-col">
         <main className="flex-1 flex flex-col items-center justify-center px-4">
           <div className="w-full max-w-md text-center">
-            <h1 className="text-4xl font-bold text-gray-900 mb-2">Immutable Human</h1>
-            <p className="text-gray-600 mb-8">Verify that words came from a human, not AI</p>
+            <h1 className="text-4xl font-bold text-gray-900 mb-2">Human Notary</h1>
+            <p className="text-gray-600 mb-8">Verifying Human Written Stories</p>
 
             <form onSubmit={handleSearch} className="space-y-4">
               <div>
@@ -77,7 +77,7 @@ export default function Home() {
         </main>
 
         <footer className="py-4 text-center text-gray-400 text-sm">
-          Proving humanity, one keystroke at a time
+          Human Notary
         </footer>
       </div>
     </>

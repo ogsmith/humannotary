@@ -51,7 +51,7 @@ export default function Write() {
   if (result) {
     return (
       <>
-        <Head title="Submitted - Immutable Human" />
+        <Head title="Submitted - Human Notary" />
 
         <div className="min-h-screen bg-gray-50 flex flex-col">
           <header className="py-4 px-4">
@@ -140,7 +140,7 @@ export default function Write() {
 
   return (
     <>
-      <Head title="Write - Immutable Human" />
+      <Head title="Write - Human Notary" />
 
       <div className="min-h-screen bg-gray-50 flex flex-col">
         <header className="py-4 px-4">

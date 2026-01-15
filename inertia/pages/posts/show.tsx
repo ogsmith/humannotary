@@ -18,7 +18,7 @@ export default function Show({ post, error }: Props) {
   if (error || !post) {
     return (
       <>
-        <Head title="Not Found - Immutable Human" />
+        <Head title="Not Found - Human Notary" />
 
         <div className="min-h-screen bg-gray-50 flex flex-col">
           <header className="py-4 px-4">
@@ -56,7 +56,7 @@ export default function Show({ post, error }: Props) {
 
   return (
     <>
-      <Head title={`${post.id} - Immutable Human`} />
+      <Head title={`${post.id} - Human Notary`} />
 
       <div className="min-h-screen bg-gray-50 flex flex-col">
         <header className="py-4 px-4">
@@ -99,7 +99,7 @@ export default function Show({ post, error }: Props) {
           </div>
         </main>
 
-        <footer className="py-4 text-center text-gray-400 text-sm">Immutable Human</footer>
+        <footer className="py-4 text-center text-gray-400 text-sm">Human Notary</footer>
       </div>
     </>
   )
