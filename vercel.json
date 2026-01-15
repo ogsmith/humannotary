@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "framework": null,
+  "functions": {
+    "api/index.ts": {
+      "runtime": "@vercel/node@3",
+      "maxDuration": 30
+    }
+  },
+  "rewrites": [
+    { "source": "/build/public/(.*)", "destination": "/build/public/$1" },
+    { "source": "/(.*)", "destination": "/api" }
+  ],
+  "outputDirectory": "."
+}
